@@ -1,26 +1,57 @@
-header {
+.flex-item {
     background-color: black;
     color: white;
     padding: 10px;
     margin: 10px;
     text-align: center;
 
+}
+
+.flex-other {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
 
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 
 }
 
-photo {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
+.project{
+    max-width: 20vw;
+    max-height: 30vh;
+    margin:auto;
+    display:inline;
 
+}
+
+.other{
+    max-width: 20vw;
+    max-height: 30vh;
+    margin:auto;
+    display:inline;
+
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+.box {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    width: 50vw;
+    text-align: center;
 }
