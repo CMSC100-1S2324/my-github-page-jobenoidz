@@ -14,7 +14,7 @@ html{
 .button{
     background-image: linear-gradient(to right,rgb(34, 34, 73), rgb(28, 28, 95));
     justify-content: space-evenly;
-    font-size: 30px;
+    font-size: 2.5vw;
     padding: 10px;
     margin: 30px;
     color: white;
@@ -41,7 +41,7 @@ html{
 }
 
 .project{
-    max-width: 20vw;
+    max-width: 15vw;
     max-height: 19vh;
     margin:auto;
     display:inline;
@@ -49,7 +49,7 @@ html{
 }
 
 .flex-parent {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -72,7 +72,7 @@ html{
     text-align: center;
     color: white;
     font-size: 2.5vmin;
-    inline-size: 50vw;
+    inline-size: 40vw;
 }
 
 
